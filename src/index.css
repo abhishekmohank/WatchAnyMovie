@@ -1,0 +1,179 @@
+/* .img-fluid {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  padding: 50px;
+}
+
+
+
+.twt {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  margin: 20px;
+  width: 100%;
+  height: 70px;
+  border: 1px solid gray;
+
+  text-align: center;
+} */
+body {
+  /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; */
+  background: #212121;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.moviePoster {
+  width: 160px;
+  height: 220px;
+  background: url("./img_prld.jpg") center center no-repeat;
+}
+/* .movieCard {
+  width: 200px;
+  height: 270px;
+  margin: 10px;
+  align-items: center;
+  float: left;
+} */
+
+.searchBtn {
+  background: "#b71c1c";
+  border-top-right-radius: 300px;
+  border-bottom-right-radius: 300px;
+}
+/* .moviePosterDialog {
+  width: 100%;
+  height: 100%;
+} */
+.moviePosterDetail {
+  height: 40vh;
+}
+.closebtn {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1;
+  width: 100%;
+  transition: 0.5s ease;
+  opacity: 1;
+  color: white;
+  font-weight: bolder;
+  padding: 10px;
+  text-align: center;
+  font-size: 15px;
+}
+.navbar {
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+}
+.middle {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.movieCard:hover .moviePoster {
+  filter: blur(2.5px);
+}
+
+.movieCard:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 50px;
+  width: 160px;
+  height: 150px;
+  padding: 16px 32px;
+}
+.year {
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+  position: "absolute";
+  top: "0px";
+  right: "0px";
+  color: "red";
+}
+/* .resultContainer { */
+/* padding-right: 40px; */
+/* padding-left: 11vh; */
+/* } */
+
+/* 
+center results */
+
+.resultContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* width: 30px;
+  height: 30px; */
+}
+.movieCard {
+  /* display: inline-block; */
+  width: 160px;
+  height: 220px;
+  margin: 3px;
+}
+
+.pagination .first {
+  display: inline-block;
+
+  margin: 3px;
+}
+.first {
+  border: 2px solid red;
+  width: 160px;
+  height: 220px;
+}
+.movieDataDiv {
+  color: white;
+  height: 100%;
+
+  background: #212121;
+}
+.moviePosterDiv {
+  width: 100%;
+  height: 40vh;
+  min-height: 150px;
+}
+.playBtn {
+  position: fixed;
+  top: -27px;
+  left: 75%;
+}
+
+.movieContent {
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: -60px;
+
+  padding: 20px;
+}
+
+iframe {
+  background: url("./preloader_iframe.gif") center center no-repeat;
+  background-color: black;
+}
