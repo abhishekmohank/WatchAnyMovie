@@ -178,7 +178,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Abhishek Mohan K - [@24abhishek06](https://twitter.com/24abhishek06) - abhishekmohan119@gmail.com
 
-Project Link: [https://github.com/your_username/WatchAnyMovie]((https://github.com/abhishekmohank/WatchAnyMovie))
+Project Link: [https://github.com/abhishekmohank/WatchAnyMovie](https://github.com/abhishekmohank/WatchAnyMovie)
 
 
 
