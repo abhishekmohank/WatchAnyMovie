@@ -176,9 +176,9 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+Your Name - [@your_twitter](https://twitter.com/24abhishek06) - abhishekmohan119@gmail.com
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Project Link: [https://github.com/your_username/repo_name]([(https://github.com/abhishekmohank/WatchAnyMovie)])
 
 
 
@@ -196,8 +196,9 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 * [JVectorMap](http://jvectormap.com)
 * [Font Awesome](https://fontawesome.com)
 
-
-
+<!-- NB -->
+## NB
+* Due to space concerns, some of the Node_Modlues cannot be uploaded; if you require them, please get in touch with me.
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
