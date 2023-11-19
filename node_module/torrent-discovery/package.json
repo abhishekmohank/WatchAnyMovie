@@ -1,0 +1,67 @@
+{
+  "name": "torrent-discovery",
+  "description": "Discover BitTorrent and WebTorrent peers",
+  "version": "9.4.0",
+  "author": {
+    "name": "WebTorrent LLC",
+    "email": "feross@webtorrent.io",
+    "url": "https://webtorrent.io"
+  },
+  "browser": {
+    "bittorrent-dht/client": false,
+    "bittorrent-lsd": false
+  },
+  "chromeapp": {},
+  "bugs": {
+    "url": "https://github.com/webtorrent/torrent-discovery/issues"
+  },
+  "dependencies": {
+    "bittorrent-dht": "^10.0.0",
+    "bittorrent-tracker": "^9.0.0",
+    "bittorrent-lsd": "^1.0.0",
+    "debug": "^4.0.0",
+    "run-parallel": "^1.1.2"
+  },
+  "devDependencies": {
+    "randombytes": "^2.0.3",
+    "standard": "*",
+    "tape": "^5.0.0"
+  },
+  "keywords": [
+    "webtorrent",
+    "torrent",
+    "bittorrent",
+    "peers",
+    "discovery",
+    "tracker",
+    "dht",
+    "lsd",
+    "trackers",
+    "find peers",
+    "peer-to-peer",
+    "peer discovery"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/webtorrent/torrent-discovery.git"
+  },
+  "scripts": {
+    "test": "standard && tape test/*.js"
+  },
+  "funding": [
+    {
+      "type": "github",
+      "url": "https://github.com/sponsors/feross"
+    },
+    {
+      "type": "patreon",
+      "url": "https://www.patreon.com/feross"
+    },
+    {
+      "type": "consulting",
+      "url": "https://feross.org/support"
+    }
+  ]
+}

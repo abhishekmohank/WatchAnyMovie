@@ -1,0 +1,1 @@
+"use strict";function _interopRequireDefault(e){return e&&e.__esModule?e:{default:e}}Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=void 0;var _Splash=require("./Splash");Object.defineProperty(exports,"default",{enumerable:!0,get:function(){return _interopRequireDefault(_Splash).default}}),require("../splash.css"),module.exports=exports.default;

@@ -1,0 +1,38 @@
+{
+  "name": "just-detect-adblock",
+  "version": "1.1.0",
+  "description": "It's FuckAdBlock with a minimalist API.",
+  "main": "dist/bundle.cjs.js",
+  "module": "dist/bundle.esm.js",
+  "browser": "dist/bundle.umd.js",
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "test": "http-server ./ --silent -c-1 -o /test/index.html"
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wmcmurray/just-detect-adblock.git"
+  },
+  "keywords": [
+    "detect",
+    "adblock",
+    "adblocker",
+    "blockadblock",
+    "fuckadblock"
+  ],
+  "author": "William McMurray <tiwilinlove@hotmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wmcmurray/just-detect-adblock/issues"
+  },
+  "homepage": "https://github.com/wmcmurray/just-detect-adblock#readme",
+  "devDependencies": {
+    "http-server": "^0.12.3",
+    "rollup": "^2.32.0",
+    "rollup-plugin-terser": "^7.0.2"
+  }
+}
