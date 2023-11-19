@@ -176,7 +176,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@24abhishek06](https://twitter.com/24abhishek06) - abhishekmohan119@gmail.com
+Abhishek Mohan K - [@24abhishek06](https://twitter.com/24abhishek06) - abhishekmohan119@gmail.com
 
 Project Link: [https://github.com/your_username/repo_name]([(https://github.com/abhishekmohank/WatchAnyMovie)])
 
